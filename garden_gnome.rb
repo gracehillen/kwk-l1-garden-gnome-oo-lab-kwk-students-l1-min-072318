@@ -5,7 +5,7 @@ class GardenGnome
   attr_writer age 
   attr_writer gluten_allergy
   attr_reader gluten_allergy
-  initialize (personality, hat_color= red)
+  initialize (personality, hat_color = red)
      @personality = evil
      @hat_color = hat_color
   end
