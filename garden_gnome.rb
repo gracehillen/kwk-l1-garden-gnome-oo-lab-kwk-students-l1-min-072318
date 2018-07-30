@@ -11,5 +11,4 @@ class GardenGnome
   end
   attr_reader personality
   attr_reader hat_color
-
 end
