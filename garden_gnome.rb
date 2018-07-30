@@ -1,7 +1,4 @@
 class GardenGnome
-  initialize (personality)
-     @personality = evil
-  end
   attr_reader personality
   attr_writer name 
   attr_reader name
@@ -9,4 +6,7 @@ class GardenGnome
   attr_writer age 
   attr_writer gluten_allergy
   attr_reader gluten_allergy
+  initialize (personality)
+     @personality = evil
+  end
 end
