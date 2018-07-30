@@ -9,3 +9,4 @@ class GardenGnome
   attr_writer age 
   attr_writer gluten_allergy
   attr_reader gluten_allergy
+end
